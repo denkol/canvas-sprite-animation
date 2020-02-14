@@ -17,6 +17,7 @@ The advantage of this technique is that we will have more control over the frame
 Usage:
 
 ```html
+<!--Somewhere in dom-->
 <canvas id="canvas-element" width="400" height="300"></canvas>
 ```
 
