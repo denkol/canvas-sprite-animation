@@ -35,4 +35,4 @@ const CanvasAnimation = new CanvasSpriteController({
 ```
 
 
-You can get also using it with some tweening library like [gsap](https://greensock.com/gsap/)
+You can also use it with some tweening library like [gsap](https://greensock.com/gsap/)
