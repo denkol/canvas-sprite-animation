@@ -4,4 +4,4 @@ This is my implementation of animation from a bunch of png/jpg files based on ca
 Apple have used this technique on the MacBook Pro 16 promo page:
 https://www.apple.com/macbook-pro-16/
 
-![Alt Text](https://imgur.com/HkIEUx3)
+![](demo.gif)
