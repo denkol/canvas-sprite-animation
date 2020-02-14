@@ -12,3 +12,23 @@ https://www.apple.com/macbook-pro-16/
 The advantage of this technique is that we will have more control over the frames loading. We can fetch frames much faster and efficient way by skiping intermediate frames.
 
 ![](fetch.gif)
+
+
+## Usage:
+
+```html
+<canvas id="canvas-element" width="400" height="300" />
+```
+
+```javascript
+const canvasEl = document.getElementById('canvas-element');
+
+const CanvasAnimation = new CanvasSpriteController({
+  isParralelFetch: true,
+  mainCanvas: canvasEl,
+  width: 400, 
+  height: 300,
+  totalFrames: 240, 
+  getUrlSchema: (frameId) => `sprite/${this.getNameNum(frameId)}.png`,
+});
+```
