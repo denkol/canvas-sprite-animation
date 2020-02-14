@@ -14,10 +14,10 @@ The advantage of this technique is that we will have more control over the frame
 ![](fetch.gif)
 
 
-## Usage:
+Usage:
 
 ```html
-<canvas id="canvas-element" width="400" height="300" />
+<canvas id="canvas-element" width="400" height="300"></canvas>
 ```
 
 ```javascript
@@ -32,3 +32,6 @@ const CanvasAnimation = new CanvasSpriteController({
   getUrlSchema: (frameId) => `sprite/${this.getNameNum(frameId)}.png`,
 });
 ```
+
+
+Best results you can get by using it with some tweening library like `gsap` 
