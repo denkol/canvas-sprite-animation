@@ -9,6 +9,6 @@ https://www.apple.com/macbook-pro-16/
 ![](demo.gif)
 
 
-The advantage of this solution is that we will have more control over the loading of frames. We can fetch frames much faster and efficient way by skiping intermediate frames.
+The advantage of this technique is that we will have more control over the frames loading. We can fetch frames much faster and efficient way by skiping intermediate frames.
 
 ![](fetch.gif)
