@@ -1,0 +1,26 @@
+{
+  "name": "canvas-sprite-animation",
+  "version": "1.0.0",
+  "description": "Helper for creating an animation from a bunch of png/jpg files based on canvas",
+  "main": "canvasAnimation.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denkol/canvas-sprite-animation.git"
+  },
+  "keywords": [
+    "canvas",
+    "sprite"
+  ],
+  "author": "Denis Kolpakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denkol/canvas-sprite-animation/issues"
+  },
+  "homepage": "https://github.com/denkol/canvas-sprite-animation#readme"
+}
