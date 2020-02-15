@@ -120,8 +120,6 @@ export default class CanvasSpriteController {
     });
   }
 
-
-
   async init(callback) {
     /* Cache the first frame */
     const firstImgData = await this.cacheFrame(1);
